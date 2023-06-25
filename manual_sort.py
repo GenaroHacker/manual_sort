@@ -1,5 +1,3 @@
-import functools
-
 def ask_user_cmp(item1, item2):
     while True:
         print(f"[{item1}](1) or [{item2}](2) ?")
