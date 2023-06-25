@@ -1,7 +1,8 @@
 def ask_user_cmp(item1, item2):
     while True:
-        print(f"[{item1}](1) or [{item2}](2) ?")
-        cmp = input("--> ")
+        print(f" [ 1 ] [{item1}] ?" )
+        print(f" [ 2 ] [{item2}] ?") 
+        cmp = input(" --> ? ")
         if cmp == "1":
             return 1
         if cmp == "2":
